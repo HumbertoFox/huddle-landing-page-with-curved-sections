@@ -60,13 +60,14 @@ header {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 227px;
+  margin-top: 231px;
 }
 
 .div-community h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 48px;
   font-weight: 700;
+  letter-spacing: -.1px;
   color: var(--Very-Dark-Cyan);
 }
 
@@ -96,7 +97,6 @@ header {
 }
 
 .img-mockups {
-  display: flex;
   margin-top: 110px;
 }
 
@@ -109,7 +109,6 @@ header {
 
 .community-info {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
   background: url(../images/bg-section-top-desktop-1.svg) no-repeat bottom;
   padding-bottom: 300px;
@@ -146,7 +145,7 @@ header {
   padding: 119px 0 0 152px;
 }
 
-.community-info-right img {
+.community-info-right .div-img {
   width: 41px;
   margin: 3px 0 0 9px;
 }
@@ -156,8 +155,8 @@ header {
   font-size: 98px;
   font-weight: 700;
   color: var(--Very-Dark-Cyan);
-  margin-top: -4px;
   letter-spacing: -1.5px;
+  margin-top: -4px;
 }
 
 .community-info-right p {
@@ -172,10 +171,9 @@ header {
 .div-your-user {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   width: 100%;
   background-color: var(--Very-Pale-Blue);
-  padding-bottom: 40px;
+  padding-bottom: 44px;
 }
 
 .grow-info {
@@ -210,10 +208,9 @@ header {
 
 .div-flowing {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
   background: url(../images/bg-section-bottom-desktop-1.svg) no-repeat top, url(../images/bg-section-top-desktop-2.svg) no-repeat bottom;
-  padding: 335px 0 264px 0;
+  padding: 335px 0 268px 0;
 }
 
 .img-flowing {
@@ -240,7 +237,7 @@ header {
 }
 
 .div-your-user {
-  padding-bottom: 36px;
+  padding-bottom: 40px;
 }
 
 .your-user-info {
@@ -268,6 +265,7 @@ header {
 font-family: 'Poppins', sans-serif;
 font-size: 40px;
 color: var(--Very-Dark-Cyan);
+letter-spacing: -.1px;
 padding: 300px 0 38px 20px;
 }
 

@@ -1,0 +1,221 @@
+@media(max-width: 1280px) {
+    main {
+        width: 375px;
+    }
+
+    header {
+        padding: 28px 24px;
+    }
+      
+    .img-logo-header {
+        width: 96px;
+        height: 16px;
+    }
+      
+    .btn-header.btn {
+        width: 80px;
+        height: 23px;
+        font-size: 10px;
+        letter-spacing: normal;
+        border: 1px solid var(--Pink);
+        border-radius: 25px;
+        padding-bottom: 2px;
+        margin-top: -4px;
+    }
+
+    .div-community {
+        margin-top: 88px;
+    }
+
+    .div-community h1 {
+        font-size: 24px;
+        padding: 0 40px;
+        line-height: 36px;
+    }
+
+    .div-community p {
+        max-width: 300px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .btn-love.btn,
+    .btn-community.btn {
+        width: 200px;
+        height: 40px;
+        font-size: 12px;
+        letter-spacing: .3px;
+        border-radius: 25px;
+    }
+
+    .img-mockups {
+        max-width: 302px;
+        margin-top: 101px;
+    }
+
+    .community-info {
+        flex-direction: column;
+        align-items: center;
+        background: url(../images/bg-section-top-mobile-1.svg) no-repeat bottom;
+        padding-bottom: 120px;
+    }
+
+    .community-info-left {
+        padding: 114px 0 0 13px;
+    }
+
+    .community-info-left .div-img {
+        width: 34px;
+    }
+      
+    .community-info-left h2 {
+        font-size: 63px;
+        letter-spacing: -1px;
+        margin-top: -5px;
+    }
+      
+    .community-info-left p {
+        font-size: 14px;
+        letter-spacing: .4px;
+        margin: 6px 0 0 8px;
+    }
+
+    .community-info-right {
+        padding: 93px 0 0 15px;
+    }
+      
+    .community-info-right .div-img {
+        width: 23px;
+        margin: 3px 0 0 5px;
+    }
+      
+    .community-info-right h2 {
+        font-size: 53px;
+        color: var(--Very-Dark-Cyan);
+        letter-spacing: -.1px;
+        margin-top: -2px;
+    }
+      
+    .community-info-right p {
+        text-align: center;
+        width: 90px;
+        font-size: 14px;
+        margin: 4px 0 0 25px;
+    }
+
+    .div-grow-together,
+    .div-your-user {
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-bottom: 54px;
+    }
+      
+    .img-togethes {
+        margin: 79px 58px 77px 59px;
+    }
+
+    .grow-info {
+        text-align: center;
+        align-items: center;
+        gap: 14px;
+        padding: 0px 0 0 0px;
+    }
+
+    .grow-info h2,
+    .Flowing-info h2,
+    .your-user-info h2 {
+        font-size: 20px;
+    }
+
+    .grow-info p {
+        width: 310px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .div-flowing {
+        flex-direction: column;
+        background: url(../images/bg-section-bottom-mobile-1.svg) no-repeat top, url(../images/bg-section-top-mobile-2.svg) no-repeat bottom;
+        padding: 191px 0 223px 0;
+    }
+
+    .img-flowing {
+        margin: 0 55px;
+    }
+
+    .Flowing-info {
+        text-align: center;
+        gap: 14px;
+        margin: 88px 0 0 0;
+    }
+
+    .Flowing-info p,
+    .your-user-info p {
+        font-size: 14px;
+        letter-spacing: -.08px;
+        line-height: 21px;
+        padding: 0 30px;
+    }
+
+    .div-your-user {
+        padding-bottom: 116px;
+    }
+      
+    .your-user-info {
+        align-items: center;
+        text-align: center;
+        gap: 14px;
+        padding: 82px 0 0 0;
+    }
+      
+    .img-your-user {
+        margin: 16px 54px 0 54px;
+    }
+
+    .div-info-button {
+        background: url(../images/bg-section-bottom-mobile-2.svg) no-repeat top, url(../images/bg-footer-top-mobile.svg) no-repeat bottom ;
+        padding-bottom: 304px;
+    }
+
+    .div-info-button h2 {
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: -.1px;
+        line-height: 36px;
+        padding: 167px 30px 37px 30px;
+    }
+
+    footer {
+        padding: 58px 28px 0 28px;
+      }
+      
+    .div-footer-main {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .svg-logo {
+        width: 240px;
+        margin-bottom: 21px;
+    }
+      
+    .div-footer-logo p {
+        font-size: 14px;
+        letter-spacing: .2px;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+
+    .div-footer-info h3 {
+        font-size: 20px;
+        padding-bottom: 17px;
+        padding-left: 0px;
+    }
+
+    .div-footer-info p {
+        font-size: 14px;
+        letter-spacing: .25px;
+        line-height: 24px;
+        padding-left: 0px;
+    }
+}
