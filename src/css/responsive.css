@@ -214,6 +214,23 @@
         padding-bottom: 20px;
     }
 
+    .div-email {
+        position: relative;
+    }
+
+    .div-email span {
+        opacity: 0;
+    }
+
+    .div-email::after {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 37px;
+        content: "example@company.com";
+        font-size: 14px;
+    }
+
     .div-footer-info h3 {
         font-size: 20px;
         padding-bottom: 17px;
