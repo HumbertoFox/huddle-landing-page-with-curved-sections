@@ -187,23 +187,31 @@
 
     footer {
         padding: 58px 28px 0 28px;
-      }
+    }
       
     .div-footer-main {
         flex-direction: column-reverse;
-        justify-content: space-between;
     }
 
     .svg-logo {
-        width: 240px;
-        margin-bottom: 21px;
+        width: 200px;
+        margin-top: 104px;
+        margin-bottom: 10px;
     }
       
     .div-footer-logo p {
-        font-size: 14px;
-        letter-spacing: .2px;
-        line-height: 24px;
-        padding-bottom: 25px;
+        padding-bottom: 42px;
+    }
+
+    .div-phone,
+    .div-email {
+        font-size: 15px;
+        gap: 18px;
+        margin-left: 3px;
+    }
+
+    .div-phone {
+        padding-bottom: 20px;
     }
 
     .div-footer-info h3 {
@@ -217,5 +225,31 @@
         letter-spacing: .25px;
         line-height: 24px;
         padding-left: 0px;
+    }
+
+    .div-envie {
+        flex-direction: column;
+        gap: 17px;
+        margin-top: 33px;
+    }
+
+    .div-envie .div-input-error input {
+        width: 320px;
+        height: 46px;
+        border-radius: 5px;
+    }
+
+    .div-envie .btn-email {
+        border-radius: 5px;
+        margin-left: auto;
+    }
+
+    .icons-social-media {
+        gap: 18px;
+        margin-top: 48px;
+    }
+
+    .icons-social-media li a {
+        font-size: 26px;
     }
 }
